@@ -20,7 +20,7 @@ const projects: Project[] = [
     title: "FPL Analytics Dashboard",
     description: "Comprehensive dashboard featuring player stats database, team planning tools, fixture difficulty ratings, players on the rise/fall tracking, and buy/sell recommendations using custom algorithms.",
     technologies: ["Python", "React", "SQL", "Data Visualization"],
-    githubUrl: "https://github.com/jack-sears/fpl-analytics",
+    githubUrl: "https://github.com/jack-sears/fpl-viz",
   },
   {
     title: "Chess Opening Trainer",

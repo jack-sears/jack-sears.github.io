@@ -11,29 +11,22 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Expected Goals (xG) Model",
-    description: "A machine learning model to calculate expected goals from shot data, providing deeper insights into team and player performance beyond traditional statistics.",
-    technologies: ["Python", "scikit-learn", "Pandas", "Matplotlib"],
-    githubUrl: "https://github.com/yourusername/xg-model",
+    title: "Sports Event Tagger",
+    description: "Upload game film and manually tag events, then export data files to CSV for easy analysis. Designed for coaches and analysts who want to build their own datasets.",
+    technologies: ["Python", "OpenCV", "Pandas", "Tkinter"],
+    githubUrl: "https://github.com/jack-sears/sports-event-tagger",
   },
   {
-    title: "Match Event Visualizer",
-    description: "Interactive web application for visualizing match events, player movements, and tactical patterns using event stream data.",
-    technologies: ["React", "D3.js", "TypeScript", "Tailwind CSS"],
-    githubUrl: "https://github.com/yourusername/match-visualizer",
-    liveUrl: "https://match-visualizer.example.com",
+    title: "FPL Analytics Dashboard",
+    description: "Comprehensive dashboard featuring player stats database, team planning tools, fixture difficulty ratings, players on the rise/fall tracking, and buy/sell recommendations using custom algorithms.",
+    technologies: ["Python", "React", "SQL", "Data Visualization"],
+    githubUrl: "https://github.com/jack-sears/fpl-analytics",
   },
   {
-    title: "Player Recruitment Dashboard",
-    description: "A comprehensive dashboard for scouting and comparing players across multiple leagues using various performance metrics and radar charts.",
-    technologies: ["Python", "Streamlit", "Plotly", "SQL"],
-    githubUrl: "https://github.com/yourusername/recruitment-dashboard",
-  },
-  {
-    title: "Passing Network Analysis",
-    description: "Tool for analyzing and visualizing team passing networks, identifying key playmakers and tactical structures within match data.",
-    technologies: ["Python", "NetworkX", "Matplotlib", "NumPy"],
-    githubUrl: "https://github.com/yourusername/passing-networks",
+    title: "Chess Opening Trainer",
+    description: "Chess training app where you can upload PGN files containing opening lines you want to learn. The program generates random lines with spaced repetition to help memorize opening theory.",
+    technologies: ["Python", "Chess.js", "React", "Spaced Repetition"],
+    githubUrl: "https://github.com/jack-sears/chess-opening-trainer",
   },
 ];
 

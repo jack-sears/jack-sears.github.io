@@ -18,27 +18,34 @@ const ResearchSection = () => {
             </div>
             <div className="flex-1">
               <h3 className="font-heading text-xl font-semibold text-foreground mb-2">
-                Thesis Title Goes Here
+                Quantification and Analysis of Second Balls in Soccer
               </h3>
               <p className="font-body text-sm text-muted-foreground mb-4">
-                Your University • 2024
+                Master's Thesis • 2024
               </p>
               <p className="font-body text-muted-foreground leading-relaxed mb-6">
-                A comprehensive analysis of [your thesis topic]. This research explores 
-                how advanced statistical methods can be applied to soccer data to uncover 
-                insights about team performance, player evaluation, and tactical analysis. 
-                The study introduces novel approaches to [specific contribution] and 
-                demonstrates practical applications for professional soccer organizations.
+                In soccer, second balls are crucial to control possession and create attacking chances, 
+                but have remained largely unexplored. This thesis creates a mathematical framework to 
+                identify, classify, and extract second balls from data. Building on this foundation, 
+                the novel Expected Second Ball Value (xSBV) model uses machine learning and Markov 
+                chains to estimate both the probability of winning a second ball and the likelihood 
+                that the following possession leads to a goal. Predictive models achieved a top-3 
+                accuracy of 60% for second ball location and an ROC-AUC score of 0.79 for predicting 
+                the winning team. Key results highlighted specific areas to target for higher success 
+                rates and produced a ranking of players based on their second-ball winning ability.
               </p>
               <div className="flex flex-wrap gap-2 mb-6">
                 <span className="px-2 py-1 bg-secondary text-secondary-foreground text-xs font-heading font-medium rounded">
-                  Soccer Analytics
+                  Second Ball Analysis
                 </span>
                 <span className="px-2 py-1 bg-secondary text-secondary-foreground text-xs font-heading font-medium rounded">
                   Machine Learning
                 </span>
                 <span className="px-2 py-1 bg-secondary text-secondary-foreground text-xs font-heading font-medium rounded">
-                  Statistical Modeling
+                  Markov Chains
+                </span>
+                <span className="px-2 py-1 bg-secondary text-secondary-foreground text-xs font-heading font-medium rounded">
+                  xSBV Model
                 </span>
               </div>
               <Button variant="outline" className="font-heading">

@@ -4,9 +4,10 @@ const skills = [
   "SQL",
   "JavaScript",
   "React",
-  "Data Visualization",
   "Machine Learning",
-  "Statistical Analysis",
+  "Data Analytics",
+  "Statistical Modeling",
+  "Data Visualization",
 ];
 
 const AboutSection = () => {
@@ -19,20 +20,20 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-3 gap-12">
           <div className="md:col-span-2 space-y-6">
             <p className="font-body text-lg text-muted-foreground leading-relaxed">
-              I'm a programmer with a deep passion for soccer analytics. My journey began 
-              with a love for the game and evolved into a fascination with how data can 
-              reveal hidden patterns and insights that shape match outcomes.
+              I'm a Mathematical Science undergrad turned Computer Science master's 
+              student, specializing in machine learning and data analytics. My passion 
+              lies at the intersection of soccer and data science.
             </p>
             <p className="font-body text-lg text-muted-foreground leading-relaxed">
-              Currently, I'm focused on building tools and models that bridge the gap 
-              between raw performance data and actionable insights for coaches, scouts, 
-              and analysts. My goal is to contribute to how teams understand and 
-              leverage data in professional soccer.
+              Having played competitive soccer at the semi-pro and university level 
+              in Canada, I bring a unique perspective to sports analytics. I understand 
+              the game from a player's viewpoint and combine that with technical skills 
+              to extract meaningful insights from data.
             </p>
             <p className="font-body text-lg text-muted-foreground leading-relaxed">
-              When I'm not coding or watching matches, you'll find me diving into the 
-              latest research papers on sports analytics or experimenting with new 
-              visualization techniques.
+              My goal is to contribute to how teams understand and leverage data in 
+              professional soccer, building tools and models that help coaches, scouts, 
+              and analysts make better decisions.
             </p>
           </div>
           <div>

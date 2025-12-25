@@ -14,16 +14,16 @@ const ContactSection = () => {
         
         <div className="flex flex-col items-center gap-6 mb-12">
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:jacksears01@gmail.com"
             className="flex items-center gap-3 text-foreground hover:text-primary transition-colors font-heading font-medium"
           >
             <Mail className="w-5 h-5" />
-            your.email@example.com
+            jacksears01@gmail.com
           </a>
           
           <div className="flex items-center gap-6">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/jack-sears"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors font-heading text-sm"
@@ -32,7 +32,7 @@ const ContactSection = () => {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/jack-sears-aa946625a/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors font-heading text-sm"

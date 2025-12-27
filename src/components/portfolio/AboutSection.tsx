@@ -1,9 +1,9 @@
 const skills = [
   "Python",
-  "R",
+  "C++",
+  "C",
+  "Matlab",
   "SQL",
-  "JavaScript",
-  "React",
   "Machine Learning",
   "Data Analytics",
   "Statistical Modeling",
@@ -20,8 +20,8 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-3 gap-12">
           <div className="md:col-span-2 space-y-6">
             <p className="font-body text-lg text-muted-foreground leading-relaxed">
-              I'm a Mathematical Science undergrad turned Computer Science master's 
-              student, specializing in machine learning and data analytics. My passion 
+              I'm a Mathematical Science undergrad turned Computer Science Master's 
+              graduate, specializing in machine learning and data analytics. My passion 
               lies at the intersection of soccer and data science.
             </p>
             <p className="font-body text-lg text-muted-foreground leading-relaxed">
@@ -32,7 +32,7 @@ const AboutSection = () => {
             </p>
             <p className="font-body text-lg text-muted-foreground leading-relaxed">
               My goal is to contribute to how teams understand and leverage data in 
-              professional soccer, building tools and models that help coaches, scouts, 
+              professional soccer, building tools and AI models that help coaches, scouts, 
               and analysts make better decisions.
             </p>
           </div>

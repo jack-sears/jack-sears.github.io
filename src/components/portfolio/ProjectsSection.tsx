@@ -15,12 +15,14 @@ const projects: Project[] = [
     description: "Upload game film and manually tag events, then export data files to CSV for easy analysis. Designed for coaches and analysts who want to build their own datasets.",
     technologies: ["Python", "OpenCV", "Pandas", "Tkinter"],
     githubUrl: "https://github.com/jack-sears/sports-event-tagger",
+    liveUrl: "https://jack-sears.github.io/sports-event-tagger/",
   },
   {
     title: "FPL Analytics Dashboard",
     description: "Comprehensive dashboard featuring player stats database, team planning tools, fixture difficulty ratings, players on the rise/fall tracking, and buy/sell recommendations using custom algorithms.",
-    technologies: ["Python", "React", "SQL", "Data Visualization"],
+    technologies: ["Python", "API Integration", "SQL", "Data Visualization"],
     githubUrl: "https://jack-sears.github.io/fpl-viz/",
+    liveUrl: "https://jack-sears.github.io/fpl-viz/",
   },
   {
     title: "Chess Opening Trainer",
@@ -39,7 +41,7 @@ const ProjectsSection = () => {
         </h2>
         <p className="font-body text-lg text-muted-foreground mb-12 max-w-2xl">
           A selection of my soccer analytics and development projects. Each one represents 
-          a step in my journey to better understand the game through data.
+          a step in my journey to better my skills as a programmer and data scientist.
         </p>
         <div className="grid md:grid-cols-2 gap-6">
           {projects.map((project) => (

@@ -21,7 +21,7 @@ const ResearchSection = () => {
                 Quantification and Analysis of Second Balls in Soccer
               </h3>
               <p className="font-body text-sm text-muted-foreground mb-4">
-                Master's Thesis • 2024
+                Master's Thesis • 2025
               </p>
               <p className="font-body text-muted-foreground leading-relaxed mb-6">
                 In soccer, second balls are crucial to control possession and create attacking chances, 
@@ -48,9 +48,19 @@ const ResearchSection = () => {
                   xSBV Model
                 </span>
               </div>
-              <Button variant="outline" className="font-heading">
-                <Download className="w-4 h-4 mr-2" />
-                Download PDF
+              <Button 
+                variant="outline" 
+                className="font-heading"
+                asChild
+              >
+                <a
+                  href="/thesis.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Download className="w-4 h-4 mr-2" />
+                  Download PDF
+                </a>
               </Button>
             </div>
           </div>

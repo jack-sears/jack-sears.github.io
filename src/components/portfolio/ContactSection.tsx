@@ -43,9 +43,20 @@ const ContactSection = () => {
           </div>
         </div>
 
-        <Button variant="default" size="lg" className="font-heading">
-          <Download className="w-4 h-4 mr-2" />
-          Download Resume
+        <Button 
+          variant="default" 
+          size="lg" 
+          className="font-heading"
+          asChild
+        >
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Download className="w-4 h-4 mr-2" />
+            Download Resume
+          </a>
         </Button>
       </div>
     </section>

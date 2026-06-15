@@ -20,6 +20,10 @@ const Navigation = () => {
   }, []);
 
   const scrollToSection = (href: string) => {
+    if (href.startsWith("http")) {
+      window.open(href, "_blank");
+      return;
+    }
     const element = document.querySelector(href);
     element?.scrollIntoView({ behavior: "smooth" });
   };

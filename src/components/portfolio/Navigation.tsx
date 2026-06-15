@@ -21,7 +21,7 @@ const Navigation = () => {
 
   const scrollToSection = (href: string) => {
     if (href.startsWith("http")) {
-      window.open(href, "_blank");
+      window.location.href = href;
       return;
     }
     const element = document.querySelector(href);
